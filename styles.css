@@ -20,6 +20,11 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label:hover {
+  color: orange;
+  transform: scale(1.5);
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,6 +37,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%
 }
 
 .threehoriz {
@@ -58,7 +64,13 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
-
+.poland {
+  background-color:#ce1126;
+}
+.red {
+  background-color:#ce1126;
+  height:33.33%;
+}
 .orange {
   background-color: orange;
 }
@@ -75,34 +87,46 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
-  background-color: lightblue;
+.light-blue {
+  background-color: lightblue; 
+  height:33.33%;
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
-  background-color: #fff;
+#white {
+  background-color: #fff; 
+  height:33.33%;
 }
+
 
 .black {
   background-color: #000;
 }
 
 /* BEGIN QUESTION 2 */
-
+.thailand {
+  height: 100%;
+  width: 100%;
+}
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  width: 100%;
+  height: 16.67%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: #fff;
+  width: 100%;
+  height: 16.67%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  width: 100%;
+  height: 16.67%;
 }
 
 /* END QUESTION 2 */
@@ -111,14 +135,19 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  flex-direction: column;
+
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  flex-direction: column;
+
 }
 
 .romania-red {
   background-color: #e10017;
+  flex-direction: column;
 }
 
 /* END QUESTION 3 */
@@ -129,7 +158,9 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  width: 33.33%;
+  align-self: center;
+  padding: 15px;
 }
 
 .mexico-red {
@@ -144,22 +175,25 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  padding: 60px;
 }
 
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
+  margin-right: 0px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
